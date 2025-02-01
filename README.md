@@ -25,7 +25,7 @@ Trash Seller uses image recognition and AI to detect trash items from uploaded i
 4. Run the Flask app:
 
     ``` bash
-    python app.py
+    python server.py
     ```
 
 5. Visit ```http://127.0.0.1:5000/``` in your browser to upload images.
