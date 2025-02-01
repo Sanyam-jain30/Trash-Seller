@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload an Image for Selling Trash</h1>
+        <p class="description">Select an image file from your computer and click "Upload" to detect trash items within the image.</p>
+        
+        <!-- Image upload form -->
+        <form action="/upload" method="POST" enctype="multipart/form-data" class="upload-form">
+            <div class="custom-file-input">
+                <input type="file" name="image" id="fileInput" accept="image/*" required>
+                <label for="fileInput">Choose an image</label>
+            </div>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

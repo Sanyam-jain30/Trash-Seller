@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <h2>Trash Found and Price</h2>
+        
+        <!-- Image Display -->
+        <div class="image-container">
+            <h4>Uploaded Image</h4>
+            <img src="{{ url_for('uploaded_file', filename=image_filename) }}" alt="Uploaded Image">
+        </div>
+        
+        <!-- Table to display item counts and prices -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Count</th>
+                    <th>Price Per Unit</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item, details in item_details.items() %}
+                <tr>
+                    <td>{{ item }}</td>
+                    <td>{{ details.count }}</td>
+                    <td>{{ details.price_per_unit }}</td>
+                    <td>${{ "%.2f"|format(details.total_price) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        
+        <!-- Total Price -->
+        <h3>Total Price for the Trash: ${{ "%.2f"|format(total_price) }}</h3>
+
+        <!-- Optional button for more actions (e.g., back to homepage or upload new image) -->
+        <div class="button-container" style="text-align: center;">
+            <a href="/" class="button">Upload Another Image</a>
+        </div>
+    </div>
+</body>
+</html>

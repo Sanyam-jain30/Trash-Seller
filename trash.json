@@ -1,0 +1,80 @@
+{
+    "trash_items": {
+      "Metal Scrap": [
+        { "item": "Aluminum (Cans, Sheets)", "price_per_unit": "$0.60 per pound" },
+        { "item": "Copper (Wires, Pipes)", "price_per_unit": "$3.50 per pound" },
+        { "item": "Iron and Steel (Old appliances, Tools)", "price_per_unit": "$0.10 per pound" },
+        { "item": "Brass (Plumbing fittings, Fixtures)", "price_per_unit": "$2.00 per pound" },
+        { "item": "Stainless Steel Utensils", "price_per_unit": "$0.40 per pound" },
+        { "item": "Aluminum Foil (Clean)", "price_per_unit": "$0.30 per pound" },
+        { "item": "Zinc (Old pipes, Coatings)", "price_per_unit": "$0.50 per pound" }
+      ],
+      "Paper and Cardboard": [
+        { "item": "Old Newspapers", "price_per_unit": "$0.10 per pound" },
+        { "item": "Cardboard Boxes", "price_per_unit": "$0.05 per pound" },
+        { "item": "Office Paper (Shredded or Whole)", "price_per_unit": "$0.15 per pound" },
+        { "item": "Magazines", "price_per_unit": "$0.05 per pound" },
+        { "item": "Books (Damaged or Non-reusable)", "price_per_unit": "$0.07 per pound" },
+        { "item": "Paper Packaging Material", "price_per_unit": "$0.03 per pound" }
+      ],
+      "Plastic Scrap": [
+        { "item": "PET Bottles", "price_per_unit": "$0.50 per pound" },
+        { "item": "HDPE (Plastic containers, Milk jugs)", "price_per_unit": "$0.40 per pound" },
+        { "item": "Mixed Plastic Waste", "price_per_unit": "$0.20 per pound" },
+        { "item": "PVC Pipes", "price_per_unit": "$0.25 per pound" },
+        { "item": "Plastic Bags (Bulk)", "price_per_unit": "$0.05 per pound" },
+        { "item": "Plastic Toys", "price_per_unit": "$0.10 per pound" }
+      ],
+      "E-Waste": [
+        { "item": "Mobile Phones (Broken or Old)", "price_per_unit": "$2.00 per unit" },
+        { "item": "Laptops (Non-functional)", "price_per_unit": "$5.00 per unit" },
+        { "item": "Old Circuit Boards", "price_per_unit": "$3.00 per pound" },
+        { "item": "Batteries (Lithium, Lead-acid)", "price_per_unit": "$0.75 per pound" },
+        { "item": "Keyboards and Mice", "price_per_unit": "$1.00 per unit" },
+        { "item": "Printers and Scanners", "price_per_unit": "$5.00 per unit" },
+        { "item": "Old Cables and Chargers", "price_per_unit": "$1.50 per pound" }
+      ],
+      "Glass": [
+        { "item": "Glass Bottles (Clear, Green, Brown)", "price_per_unit": "$0.03 per bottle" },
+        { "item": "Window Glass or Broken Glassware", "price_per_unit": "$0.02 per pound" },
+        { "item": "Glass Jars", "price_per_unit": "$0.05 per jar" },
+        { "item": "Mirror Glass (Broken)", "price_per_unit": "$0.02 per pound" }
+      ],
+      "Textiles": [
+        { "item": "Old Clothes (Reusable)", "price_per_unit": "$0.25 per pound" },
+        { "item": "Torn Fabric and Rags", "price_per_unit": "$0.10 per pound" },
+        { "item": "Shoes (Reusable)", "price_per_unit": "$2.00 per shoe" },
+        { "item": "Curtains or Bedsheets", "price_per_unit": "$0.15 per pound" }
+      ],
+      "Wood": [
+        { "item": "Old Furniture", "price_per_unit": "$10–$50 per piece" },
+        { "item": "Wooden Pallets", "price_per_unit": "$1.50 per pallet" },
+        { "item": "Wood Shavings (Clean)", "price_per_unit": "$0.10 per pound" },
+        { "item": "Old Wooden Doors", "price_per_unit": "$15–$50 per door" }
+      ],
+      "Organic Waste": [
+        { "item": "Food Scraps (Vegetable and Fruit Peels)", "price_per_unit": "$0.05 per pound" },
+        { "item": "Garden Waste (Leaves, Grass Clippings)", "price_per_unit": "$0.03 per pound" }
+      ],
+      "Miscellaneous": [
+        { "item": "Car Tires", "price_per_unit": "$2.00 per tire" },
+        { "item": "Books (Reusable)", "price_per_unit": "$1.00 per book" },
+        { "item": "Old Appliances (Fans, Microwaves)", "price_per_unit": "$5.00–$10.00 per unit" },
+        { "item": "Jewelry Scrap (Gold, Silver)", "price_per_unit": "Market-dependent" },
+        { "item": "Rubber (Old Mats, Hoses)", "price_per_unit": "$0.10 per pound" },
+        { "item": "Ceramic Items (Broken Plates, Cups)", "price_per_unit": "$0.02 per pound" },
+        { "item": "Old Paint Cans (Empty or Residual)", "price_per_unit": "$0.50 per can" },
+        { "item": "Bicycle or Vehicle Parts", "price_per_unit": "$5.00–$20.00 per piece" },
+        { "item": "Coconut Shells", "price_per_unit": "$0.02 per shell" },
+        { "item": "Wine Corks", "price_per_unit": "$0.05 per cork" },
+        { "item": "Bones (For Fertilizer or Pet Chews)", "price_per_unit": "$0.10 per pound" },
+        { "item": "Egg Cartons (Paper or Foam)", "price_per_unit": "$0.03 per piece" }
+      ],
+      "Hazardous Waste": [
+        { "item": "Fluorescent Light Tubes", "price_per_unit": "$0.50 per tube" },
+        { "item": "Used Motor Oil", "price_per_unit": "$0.25 per liter" },
+        { "item": "Old Paint and Solvent Containers", "price_per_unit": "$1.00 per gallon" }
+      ]
+    }
+}
+  
