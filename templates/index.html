@@ -3,22 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Image</title>
+    <title>Trash Sale</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>Upload an Image for Selling Trash</h1>
-        <p class="description">Select an image file from your computer and click "Upload" to detect trash items within the image.</p>
-        
-        <!-- Image upload form -->
-        <form action="/upload" method="POST" enctype="multipart/form-data" class="upload-form">
-            <div class="custom-file-input">
-                <input type="file" name="image" id="fileInput" accept="image/*" required>
-                <label for="fileInput">Choose an image</label>
-            </div>
-            <button type="submit">Upload</button>
+        <!-- Header -->
+        <header>
+            <h1><i class="fas fa-trash-alt"></i> Trash Sale</h1>
+        </header>
+
+        <!-- Drag & Drop Image Upload -->
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label class="upload-label">
+                <i class="fas fa-upload"></i> Upload a Trash Image
+                <input type="file" name="image" id="file-input" accept="image/*" onchange="this.form.submit()">
+            </label>
         </form>
+
+        <!-- Feature Cards Section -->
+        <div class="features">
+            <div class="feature-card">
+                <img src="{{ url_for('static', filename='assets/declutter.jpg') }}" alt="Declutter">
+                <h3>Declutter Your Life</h3>
+                <p>Selling your trash is a great way to get rid of unwanted items and free up space in your home.</p>
+            </div>
+            <div class="feature-card">
+                <img src="{{ url_for('static', filename='assets/save_environment.jpg') }}" alt="Save Environment">
+                <h3>Saver Environment</h3>
+                <p>Selling your trash is a great way to reduce your environmental impact.</p>
+            </div>
+            <div class="feature-card">
+                <img src="{{ url_for('static', filename='assets/earn_cash.jpg') }}" alt="Earn Cash">
+                <h3>Earn Extra Cash</h3>
+                <p>You can make some extra money by selling your trash.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
